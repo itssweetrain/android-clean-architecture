@@ -1,3 +1,4 @@
+editing...
 # android-clean-architecture
 applied android clean architecture with mvvm pattern
 # Architecture
@@ -32,3 +33,12 @@ Robert C.Martin, Clean Architecture, Ch.17
 * use case : entity를 사용해서 어플리케이션 고유의 비즈니스 로직을 실현한다. 시스템의 동작을 사용자의 입장에서 표현한 시나리오이다. 어떻게 시스템이 자동화되는지 말해주고 어떻게 어플리케이션이 행동하고 실행하는지 결정한다.
 * adapter : 도메인과 인프라 사이의 통역하고 변환하는 역할을 한다. 즉, 본인의 계층 안밖에 있는 Data나 Event를 교환하기 위한 존재.
 * infrastructure : 일반적으로 DB, 프레임워크 같은 것들로 구성이 되는 영역.
+
+# Libraries and Tools used
+* [Hilt](https://developer.android.com/training/dependency-injection/hilt-android)
+* [Retrofit2](https://github.com/square/retrofit)
+* [OkHttp3](http://square.github.io/okhttp/)
+* [Gson](https://github.com/google/gson)
+* [Architecture Components - LiveData/ViewModel](https://developer.android.com/topic/libraries/architecture/index.html)
+* [View Binding](https://developer.android.com/topic/libraries/view-binding)
+
